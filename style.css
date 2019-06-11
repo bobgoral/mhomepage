@@ -1,18 +1,24 @@
 body {
-    background: salmon;
+    background: #fefefe;
 }
 .header {
-    color:red;
-}
-.pamietniczek {
-
+    color: #6c1285;
 }
 .sectionHeader {
-    color: green;
+    color: #6c1285;
+}
+.diaryHeader {
+
 }
 .heading {
     color: blueviolet;
 }
 .paragraph {
-    color: brown
+    color: brown;
+}
+.link {
+
+}
+.thirdHeader {
+    
 }
