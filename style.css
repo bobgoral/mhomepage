@@ -1,0 +1,18 @@
+body {
+    background: rgb(221, 209, 209);
+}
+.header {
+    color:red;
+}
+.pamietniczek {
+
+}
+.sectionHeader {
+    color: green;
+}
+.heading {
+    color: blueviolet;
+}
+.paragraph {
+    color: brown
+}
