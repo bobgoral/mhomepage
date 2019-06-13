@@ -1,24 +1,37 @@
 body {
     background: #fefefe;
+    color: #333;
 }
+
 .header {
     color: #6c1285;
 }
-.sectionHeader {
-    color: #6c1285;
+.sectionHeader, .diaryHeader {
+    color: #1460aa;
 }
-.diaryHeader {
 
-}
+.diaryHeader {}
+
 .heading {
-    color: blueviolet;
+    color: #00487c;
+}
+
+.link {
+    color: #1a936f;
+}
+
+.thirdHeader {
+    color: #0496FF;
+}
+.about {
+    width: 100%;
+    max-width: 600px;
 }
 .paragraph {
-    color: brown;
-}
-.link {
+    padding: 16px;
+    border-bottom: 3px dotted #1a936f;
+    background: #333;
+    color: #fff;
+    border-radius: 30px;
 
-}
-.thirdHeader {
-    
 }
