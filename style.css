@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
 body {
     background: #fefefe;
     color: #333;
@@ -26,12 +32,30 @@ body {
     color: #1a936f;
     text-decoration: none;
 }
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     left: 0;
     box-sizing: border-box;
     padding: 50px;
+}
+.navigation {
+    ;
+
+}
+.navigation__list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.navigation__item {
+    display: inline;
+    padding: 10px;
+}
+.navigation__link {
+    color: #1a936f;
 }
 .about {
     position: relative;
@@ -59,6 +83,9 @@ body {
 .diary__paragraph {
     padding: 16px;
     font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
 }
 .diary__section {
 
@@ -71,4 +98,7 @@ body {
 }
 .diary__paragraph--fontsize {
     font-size: 20px;
+}
+.table {
+    width: 100%;
 }
